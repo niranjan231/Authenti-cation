@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.acount-1{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.acount-2{
+    height: 100vh;
+    width: 450px;
+    background-color:lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.acount-2 button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(0, 255, 128, 0.119);
+    border: 2px solid white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.acount-2 h1{
+    color: white;
+    margin-bottom: 30px;
+}
+.acount-2 p{
+    color: white;
+    margin-bottom: 10px;
+}
+.acount-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 200px;
+    position: relative;
+}
+.acount-3 h1{
+    color: lightseagreen;
+    margin-bottom: 120px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.acount-4 span{
+   font-weight: 700;
+   font-size: 30px;
+   background-color: rgba(0, 0, 0, 0);
+   margin-right: 50px;
+  cursor: pointer;
+  
+}
+.acount-4{
+  
+    display: flex;
+    /* justify-content: space-around; */
+    margin-bottom: 100px;
+}
+.acount-3 p{
+    color: rgba(0, 0, 0, 0.658);
+}
+.acount-3  input{
+    width: 350px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    margin-top: 15px;   
+    position: relative;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.acount-3 button{
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    background-color: lightseagreen;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    outline: 0;
+    cursor: pointer;
+  
+    
+}
